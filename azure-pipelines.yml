@@ -35,6 +35,7 @@ steps:
     pytest
   displayName: 'pytest'
   
+
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: "JaCoCo"
